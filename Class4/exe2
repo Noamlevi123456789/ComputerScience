@@ -1,1 +1,19 @@
+import java.util.Scanner;
 
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num = scan.nextInt();
+         System.out.println("Enter a number:");
+        int num1 = scan.nextInt();// Use nextInt() to read an integer
+
+        if (num1 > num)
+        {
+            System.out.println (num);
+        }
+        else
+        {
+            System.out.println(num1); // Handle zero as a special case
+        }
+    }
