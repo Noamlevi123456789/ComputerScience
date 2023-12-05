@@ -1,1 +1,18 @@
+import java.util.Scanner;
 
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num = scan.nextInt(); // Use nextInt() to read an integer
+
+        if (num > 0) {
+            System.out.println("Positive");
+        } else if (num < 0) { // Added condition to check for negative numbers
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero"); // Handle zero as a special case
+        }
+    }
+}
+\
