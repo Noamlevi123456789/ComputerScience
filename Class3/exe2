@@ -1,1 +1,11 @@
-
+class HelloWorld 
+{
+    public static void main(String[] args) 
+    {
+        int a=0;
+        int b=88;
+        int sum=(a*a) + (b*b);
+        double c= Math.sqrt(sum);
+        System.out.println(c);
+    }
+}
