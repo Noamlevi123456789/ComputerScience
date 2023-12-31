@@ -1,0 +1,16 @@
+public class Tester 
+{
+
+	public static void main(String[] args) 
+	{
+		Point p1 = new Point(1,2);
+		Point p2 = new Point(1,3);
+		Point p1a = new Point (p1);
+		if (p2.equal(p1a))
+			System.out.println("points are equals");
+		else
+			System.out.println("points are not equals");
+		
+	}
+
+}
